@@ -1,0 +1,13 @@
+refx = hd2['CRPIX1']
+refy = hd2['CRPIX2']
+refra = hd2['CRVAL1']
+refdec = hd2['CRVAL2']
+print 'reference pixel:'
+print 'ra =', refra
+print 'dec =', refdec
+
+kepler.plot(refx - 1.5, (y - refy) - 0.5, '*', color='#00ff8c', ms=10)
+
+OR
+
+kepler.plot((x - refx) - 0.5, (y - refy) - 0.5, '*', color='#00ff8c', ms=10)
