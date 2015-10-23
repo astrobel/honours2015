@@ -1,4 +1,4 @@
-# code from here: http://www.astropython.org/snippets/fast-lomb-scargle-algorithm32/
+# code from http://www.astropython.org/snippets/fast-lomb-scargle-algorithm32/
 
 #!/usr/bin/env python
 """ Fast algorithm for spectral analysis of unevenly sampled data
