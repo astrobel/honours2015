@@ -27,13 +27,13 @@ Description of code included:
 
     - kicskeletonloc.py: generates two plots, one of the UKIRT image of the target and one of this image with KIC and UKIRT catalogue cross-matching overlayed
     
-  Code from elsewhere:
+  Code from elsewhere (links in files):
 
     - lomb.py: Lomb-Scargle Fourier transform routine
 
     - translate.py: routine to map one range of values to another
 
-  Notes on code:
+  Extras:
 
     - quarterstitchingpatch.txt: added to pixel analysis code in the case that multiple quarters of data were used
 
